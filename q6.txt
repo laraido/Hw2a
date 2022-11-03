@@ -1,0 +1,11 @@
+1. Does the change inside increment_int_a change the variable a after the function call?
+
+Variable a wont change after the function call and will stay as 32.
+
+2. Does the change inside increment_int_b change the variable b after the function call?
+
+Varable b will change after the function call and will change to [33]
+
+3. If they differ answer why? if not, why not?
+
+They will differ because increment_int_b includes a [0] index position to replace [32] given in the main() function. Hence, the equation from increment_int_b will occur and will be 32+1 = 33. While in increment_inta, there is no position to be called to be replaced unlike the index [0] in increment_int_b. The equation will not be used in increment_int_a and the variable a will remain the same.
